@@ -9,6 +9,7 @@ LOWER_LIMIT = 0
 UPPER_LIMIT = 1000
 hidden_number = randint(LOWER_LIMIT, UPPER_LIMIT)
 attempt = 10
+attempt = abs(attempt)
 
 print(f'Я загадал число от {LOWER_LIMIT} до {UPPER_LIMIT}. Угадайте его за {attempt} попыток')
 
