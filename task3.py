@@ -24,4 +24,5 @@ while attempt != 0:
         print('Вы угадали! ヽ(°◡° )ノ')
         break
     attempt -= 1
-print('Попытки закончились')
+if attempt == 0:
+    print('Попытки закончились')
